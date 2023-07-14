@@ -1,0 +1,39 @@
+.home{
+    padding-top: 3rem;
+}
+
+.home >h1{
+    text-align: center;
+    color: var(--skyblue);
+    font-size: 4rem;
+}
+
+.serch{
+    display: flex;
+    background: var(--white);
+    gap: 0.6rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    position: fixed;
+    z-index: 2;
+    top: 3rem;
+    right: 5rem;
+    width: 15rem;
+}
+
+.serch input{
+    width: 100%;
+}
+
+.serch input::placeholder{
+    color: var(--grey-color);
+}
+
+.serch input{
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.serch svg path{
+    fill: var(--grey-color);
+}

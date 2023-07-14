@@ -1,0 +1,37 @@
+
+*{
+   padding: 0;
+   margin: 0;
+   outline: none;
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+
+
+:root{
+    --bg-principal:#465950;
+    --grey-color:rgb(48,56,67);
+    --white-grey:#EDF2F4;
+    --red-colorOne:#EE2449;
+    --red-colorTwo:#D80536;
+    --white:#fff;
+
+
+    --violet: #5D0D6E;
+    --red: #ED4353;
+    --yellow: #FED440;
+    --skyblue: #3CCDB4;
+    --green: #0FAC71;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+svg{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+
